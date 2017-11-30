@@ -4,15 +4,45 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-0">
             <div class="panel panel-default">
+             
                 <div class="panel-heading">PRODUCTOS</div>
                 <div  class="panel-heading">
+                  <tr>
 
+                  <td>
+                   <a href="<?php echo e(url('/clientes')); ?>">Clientes </a>
+                 </td>
+                   
+                 <td>
+                 <a href="<?php echo e(url('/Proveedores')); ?>">Proveedores</a>
+               </td>
+                  
+                  <td>
+                 <a href="<?php echo e(url('/Productos')); ?>">Productos</a>
+                 </td>
+
+                 <td>
+                 <a href="<?php echo e(url('/ventas')); ?>">Ventas</a>
+               </td>
+               <td>
+                  <a href="<?php echo e(url('/ventas_detalle')); ?>">Detalle de ventas</a>
+                </td>
+                <td>
+                  <a href="<?php echo e(url('/clientes_proveedor')); ?>">Clientes y Proveedores</a>
+                  </td>
+                  <td>
+                  <a href="<?php echo e(url('/ventas/factura')); ?>">Facturacion</a>
+                 </td>
+                 <td>
                  <a href="<?php echo e(route('productos.create')); ?>">Ingrese Producto</a>
+                 </td>
+               </tr>
                        </div>          
                                 
                            
                   
                 <div class="panel-body">
+
                    
                       <table width="85%">
                         <tr>
